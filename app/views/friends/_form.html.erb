@@ -31,13 +31,9 @@
     <%= form.text_field :twitter, class:"form-control", placeholder:"Twitter" %>
   </div>
   <div class="field form-group">
-    <%= form.text_field :user_id, class:"form-control", placeholder:"User Id" %>
+    <%= form.text_field :user_id, class:"form-control", value: current_user.id %>
   </div>
-  <%= current_user %>
-  <br>
-  <%= current_user.id %>
-  <br>
-  <%= user_session %>
+
   <br>
   <div class="actions">
     <%= form.submit class:'btn btn-secondary' %>
