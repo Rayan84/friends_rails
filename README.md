@@ -8,12 +8,12 @@ This RoR application was built to practice and demonstrate Ruby on Rails, Postgr
 - Ruby on Rails v5.2.4
 - Atom
 - Git and GitHub
--
+
 
 
 ## Live Demo
 
-This application has been deployed to Heroku, click below to run it online:
+This application has been deployed to Heroku, click the Live Demo Link to run it online:
 [Live Demo Link](https://friendslist-rails.herokuapp.com/)
 
 
