@@ -25,4 +25,4 @@ production:
   adapter: postgresql
   username: username
   password: password
-  #database: db/production.sqlite3
+  database: HEROKU_POSTGRESQL_JADE_URL
