@@ -21,5 +21,8 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  #<<: *default
+  adapter: postgresql
+  username: username
+  password: password
+  database: HEROKU_POSTGRESQL_JADE_URL
